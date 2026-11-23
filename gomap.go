@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/varuuntiwari/gomap/scan"
+	"github.com/retr0ski/gomap/scan"
 )
 
 // Check errors and panic if found
@@ -19,8 +19,8 @@ func HandleError(err error) {
 
 // Metadata to print on startup
 const Version = "1.0.1"
-const Source = "github.com/varuuntiwari/gomap"
-const Author = "varuuntiwari@github"
+const Source = "github.com/retr0ski/gomap"
+const Author = "retr0ski@GitHub"
 
 var Host string
 var Arr string
